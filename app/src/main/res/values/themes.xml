@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for Material 3 -->
+    <style name="Base.Theme.FamEx" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Material 3 Color System -->
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/light_green</item>
+        <item name="colorOnPrimaryContainer">@color/dark_green</item>
+
+        <item name="colorSecondary">@color/red_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/light_red</item>
+        <item name="colorOnSecondaryContainer">@color/dark_red</item>
+
+        <item name="colorTertiary">@color/purple_500</item>
+        <item name="colorOnTertiary">@color/white</item>
+
+        <item name="colorError">@color/error_red</item>
+        <item name="colorOnError">@color/white</item>
+
+        <item name="colorOnBackground">@color/on_surface_light</item>
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorOnSurface">@color/on_surface_light</item>
+        <item name="colorSurfaceVariant">@color/background_light</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+
+        <item name="colorOutline">@color/text_medium</item>
+        <item name="colorOutlineVariant">@color/text_light</item>
+    </style>
+
+    <!-- Main application theme -->
+    <style name="Theme.FamEx" parent="Base.Theme.FamEx" />
+
+    <!-- Alternative theme names for compatibility -->
+    <style name="Theme.FamilyExpenseTracker" parent="Theme.FamEx" />
+</resources>
